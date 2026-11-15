@@ -98,13 +98,9 @@ The full written insights are available in `insights/insights.pdf`.
 
 \## Dataset
 
+The original dataset contains 32,941 customer-support records covering October 2020, with 13 fields related to customer interactions, satisfaction scores, contact reasons, channels and response times.
 
-
-The dataset contains 32,941 records and 13 fields covering customer-support interactions.
-
-
-
-Key fields include customer name, sentiment, CSAT score, call timestamp, contact reason, city, state, channel, response time, contact duration and call centre.
+The raw dataset is not included in this public repository to protect customer privacy. time, contact duration and call centre.
 
 
 
@@ -146,35 +142,18 @@ Key fields include customer name, sentiment, CSAT score, call timestamp, contact
 
 \## Repository Structure
 
-
-
 ```text
-
-PRDA-02\_CSAT\_Analytics/
-
+PRDA-02-CSAT-Analytics/
 ├── README.md
-
-├── Data/
-
-│   └── csat\_data.csv
-
 ├── insights/
-
 │   └── insights.pdf
-
 ├── Powerbi/
-
-│   └── PRDA-02\_CSAT\_Dashboard.pbix
-
+│   └── PRDA-02_CSAT_Dashboard.pbix
 ├── Presentation/
-
-│   └── PRDA-02\_CSAT\_Capstone\_Presentation.pptx
-
+│   └── PRDA-02_CSAT_Capstone_Presentation.pptx
 └── Screenshots/
-
-&#x20;   ├── CSAT\_Analysis.png
-
-&#x20;   └── CSAT\_Executive\_Overview.png
+    ├── CSAT_Analysis.png
+    └── CSAT_Executive_Overview.png
 
 ```
 
@@ -183,15 +162,12 @@ PRDA-02\_CSAT\_Analytics/
 \## How to Open the Dashboard
 
 
-
-1\. Open `Powerbi/PRDA-02\_CSAT\_Dashboard.pbix` using Power BI Desktop.
-
-2\. If Power BI cannot locate the dataset, open \*\*Home → Transform data → Data source settings → Change Source\*\* and select the local `Data/csat\_data.csv` file.
-
-
+1. Download `Powerbi/PRDA-02_CSAT_Dashboard.pbix`.
+2. Open it using Microsoft Power BI Desktop.
+3. If the original data source is unavailable, provide an authorized anonymized copy of the dataset.
+4. Update the data source path through Home → Transform data → Data source settings.
 
 \## Tools and Skills Demonstrated
-
 
 
 \- SQL – Dataset extraction and export
